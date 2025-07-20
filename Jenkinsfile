@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run Tests') {
             steps {
-                sh 'mvn test -Dtest=com.markus.automation.JsonPlaceholderApiTest'
+                sh 'mvn test -Dtest=com.markus.automation.api.test.JsonPlaceholderApiTest'
             }
         }
     }
