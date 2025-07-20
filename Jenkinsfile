@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run Tests') {
             steps {
-                sh 'mvn test -Dtest=com.markus.automation.GoogleSearchTest'
+                sh 'mvn test -Dtest=com.markus.automation.JsonPlaceholderApiTest'
             }
         }
     }
